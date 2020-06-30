@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "firstName": "Anton",
+    "lastName": "1",
+    "login": "Anton",
+    "hashPassword": "1",
+    "role": null,
+    "state": null
+  },
+  {
+    "id": 5,
+    "firstName": "1",
+    "lastName": "1",
+    "login": null,
+    "hashPassword": null,
+    "role": null,
+    "state": null
+  },
+  {
+    "id": 6,
+    "firstName": "4",
+    "lastName": "4",
+    "login": "4",
+    "hashPassword": "$2a$10$IUtakxd5ja7Qq9ktUlDZsOdysaVQbLB7vqSi0gsT0ffcrWHXGw1l.",
+    "role": "USER",
+    "state": "ACTIV"
+  },
+  {
+    "id": 7,
+    "firstName": "7",
+    "lastName": "",
+    "login": "7",
+    "hashPassword": "$2a$10$HD7bz4KcRZbhNydn/wVPwe/pJaFyTt/0cKuO0w14wTXvW9PgzpL1u",
+    "role": "USER",
+    "state": "ACTIV"
+  },
+  {
+    "id": 8,
+    "firstName": "9",
+    "lastName": "9",
+    "login": "9",
+    "hashPassword": "$2a$10$9kdQ500HEJECQDQL/M40b.CwUFe5Gel8KuTtMqkORqTAa38ZR82J6",
+    "role": "USER",
+    "state": "ACTIV"
+  },
+  {
+    "id": 2,
+    "firstName": "Anton",
+    "lastName": "Anton",
+    "login": "q",
+    "hashPassword": "$2a$10$KQT8DAwuF3m9Qo7XndJQp.h3heiHLHP3USRac/wGkFbvGCK.Z.rAu",
+    "role": "ADMIN",
+    "state": "ACTIV"
+  }
+]

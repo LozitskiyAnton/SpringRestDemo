@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 
 
 import javax.persistence.*;
+import java.util.List;
 
 
 @Data
@@ -30,6 +31,9 @@ public class User {
     private Role role;
     @Enumerated(value = EnumType.STRING)
     private State state;
+
+    @OneToMany(mappedBy = "user")
+    List<Token> tokens;
 
 
 

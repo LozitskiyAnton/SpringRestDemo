@@ -29,7 +29,7 @@ public class UsersServiceImpl implements UsersService {
                 .hashPassword(hashPassword)
                 .login(userForm.getLogin())
                 .role(Role.USER)
-                .state(State.ACTIV)
+                .state(State.ACTIVE)
                 .build();
 
         usersReposytory.save(user);

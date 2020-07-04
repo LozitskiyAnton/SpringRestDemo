@@ -1,12 +1,13 @@
 package ru.fox.service.security.filters;
 
-import org.apache.catalina.servlet4preview.http.HttpServletRequest;
+import javax.servlet.http.HttpServletRequest;
 import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.stereotype.Component;
 import ru.fox.service.security.token.TokenAuthentication;
 
 import javax.servlet.*;
 import java.io.IOException;
-
+@Component
 public class TokenAuthFilter implements Filter {
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
@@ -24,6 +25,7 @@ public class TokenAuthFilter implements Filter {
         else {
             SecurityContextHolder.getContext().setAuthentication(authentication);
         }
+        filterChain.doFilter(servletRequest,servletResponse);
     }
 
     @Override
